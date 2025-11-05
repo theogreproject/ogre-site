@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://theogreproject.github.io/ogre-site/sitemap-index.xml

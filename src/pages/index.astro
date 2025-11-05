@@ -1,0 +1,37 @@
+---
+const title = 'The Ogre Project';
+const subtitle = 'Open, learner-first curriculum for aspiring GMs and TTRPG designers.';
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{title}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={subtitle} />
+  </head>
+  <body style="font-family: system-ui; line-height:1.6; padding:2rem; max-width: 72ch; margin:auto;">
+    <header>
+      <h1 style="margin:0;">{title}</h1>
+      <p style="color:#555; margin-top:.25rem;">{subtitle}</p>
+    </header>
+
+    <main>
+      <h2>What is this?</h2>
+      <p>
+        This is the early scaffolding of our website. The curriculum lives in a separate repository and will
+        be consumed here in future iterations.
+      </p>
+
+      <h2>Status</h2>
+      <ul>
+        <li>Bite 1 — org & repos: <strong>done</strong></li>
+        <li>Bite 2 — health files & reusable CI: <strong>done</strong></li>
+        <li>Bite 3 — site scaffolding & Pages deploy: <strong>in progress</strong></li>
+      </ul>
+    </main>
+
+    <footer style="margin-top:4rem; font-size:.9rem; color:#666;">
+      © {new Date().getFullYear()} The Ogre Project • Content CC BY 4.0 • Code MIT
+    </footer>
+  </body>
+</html>
